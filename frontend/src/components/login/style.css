@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #259ace;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4fdaec), color-stop(10%, #ffffff));
+  background-image: linear-gradient(180deg, #4fdaec 0%, #ffffff 10%);
+}
+
+.aside {
+  text-align: left;
+  padding-bottom: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 120px;
+}
+
+.aside .form-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 220px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  margin-top: 20px;
+}
+
+.aside .form-description input {
+  margin: 5px 0;
+  width: 300px;
+  height: 35px;
+  background-color: #f3f3f3;
+}
+
+.aside .form-description button {
+  margin: 5px 0;
+  width: 300px;
+  height: 40px;
+  background-color: #00bdff;
+}
+
+.aside h2 {
+  font-size: 60px;
+}
+
+.image {
+  padding-top: 20px;
+}
+
+.image img {
+  margin: 70px 0 0 20px;
+  max-width: 550px;
+}
+/*# sourceMappingURL=style.css.map */
