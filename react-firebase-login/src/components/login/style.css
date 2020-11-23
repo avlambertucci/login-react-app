@@ -54,6 +54,12 @@
   margin-top: 20px;
 }
 
+.aside .form-description .error-message {
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+
 .aside .form-description input {
   margin: 5px 0;
   width: 300px;
@@ -62,7 +68,6 @@
   border: 0;
   min-width: 18em;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
   border-radius: 4px;
   padding: 0 10px;
   -webkit-transition: all .2s ease-in-out;
@@ -75,21 +80,33 @@
           box-shadow: 0px 0px 12px 0.8px #44d3ff63;
 }
 
-.aside .form-description button {
+.aside .form-description .signup-container p {
+  margin-top: 10px;
+}
+
+.aside .form-description .signup-container span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff9100;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.aside .form-description .signup-container button {
   margin: 5px 0;
+  font-weight: bold;
   width: 300px;
   height: 40px;
   background-color: #00bdff;
   border: 0;
   min-width: 18em;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-.aside .form-description button:hover {
+.aside .form-description .signup-container button:hover {
   outline: none;
   background-color: #1fcc62;
   color: #fff;
@@ -109,5 +126,26 @@
 .image img {
   margin: 70px 0 0 20px;
   max-width: 550px;
+}
+
+.header {
+  background-color: #74d4fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ff0000;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

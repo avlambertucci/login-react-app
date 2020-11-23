@@ -30,6 +30,11 @@
     max-width: 220px;
     align-items: left;
     margin-top: 20px;
+    .error-message{
+      font-size: 15px;
+      color: red;
+      font-weight: bold;
+    }
 
     input{
       margin: 5px 0;
@@ -39,7 +44,7 @@
       border: 0;
       min-width: 18em;
       font-size: 16px;
-      font-family: "Open Sans", sans-serif;
+      
       border-radius: 4px;
       padding: 0 10px;
       transition: all .2s ease-in-out;
@@ -48,26 +53,42 @@
         box-shadow: 0px 0px 12px 0.8px #44d3ff63
       }
     }
-    button{
-      margin: 5px 0;
-      width: 300px;
-      height: 40px;
-      background-color: #00bdff;
-      border: 0;
-      min-width: 18em;
-      font-size: 16px;
-      font-family: "Open Sans", sans-serif;
-      border-radius: 4px;
-      transition: all .2s ease-in-out;
-      &:hover{
-        outline: none;
-        background-color: #1fcc62;
-        color: #fff;
-        box-shadow: 0px 0px 3px 0.8px #00000063
+    .signup-container {
+      p{
+        margin-top: 10px;
+        
+      }
+      span{
+        font-weight: bold;
+        font-size: 16px;
+        color: #ff9100;
+        text-decoration: underline;
+        cursor: pointer;
+        
+      }
+      button{
+        margin: 5px 0;
+        font-weight: bold;
+        
+        width: 300px;
+        height: 40px;
+        background-color: #00bdff;
+        border: 0;
+        min-width: 18em;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: all .2s ease-in-out;
+        &:hover{
+          outline: none;
+          background-color: #1fcc62;
+          color: #fff;
+          box-shadow: 0px 0px 3px 0.8px #00000063
+        }
       }
     }
     
   }
+
   h2{
     font-size: 70px;
     line-height: 52px;
@@ -82,5 +103,21 @@
   img{
     margin: 70px 0 0 20px;
     max-width: 550px;
+  }
+}
+
+.header{
+  background-color: rgb(116, 212, 250);
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+
+  span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff0000;
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
